@@ -3,7 +3,7 @@ import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
 import ABoutMe from "./pages/AboutMe"
 import Home from "./pages/Home"
-import ProjectInfo from "./pages/projectInfo"
+import ProjectInfo from "./pages/ProjectInfo"
 //import "./App.css"
 
 
