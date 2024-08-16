@@ -1,0 +1,55 @@
+/** Contact Form styles */
+.contact h2{
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+.contactIcon {
+    text-decoration: none;
+    display: flex; /* Center icon within the circle */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Creates the circular shape */
+    background-color: white; /* Circle background color */
+    color:#3B464B;; /* Icon color */
+    border: 2px solid white; /* Optional: Add a border for emphasis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    transition: transform 0.3s ease; /* Optional: Add a hover effect */
+  }
+  
+  .contactIcon i {
+    font-size: 24px; /* Adjust icon size */
+  }
+  
+  .contactIcon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  /* Styling for the Rounded Contact Button */
+.contact-button {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #EE2556; /* Button background color */
+    color: #FFF; /* Text color */
+    font-size: 16px;
+    /* font-weight:400; */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 50px; /* Fully rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Hover Effects */
+  .contact-button:hover {
+    background-color: #FF4C72; /* Slightly lighter background on hover */
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+  }
+  
+  /* Active State */
+  .contact-button:active {
+    background-color: #D61B45; /* Darker background on active */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow on active */
+    transform: translateY(0); /* No lift effect on active */
+  }
+ 

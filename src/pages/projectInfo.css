@@ -1,0 +1,49 @@
+.projectInfoSection{
+    background: linear-gradient(135deg, #b7cec1, #d1ded7, #eef3ee);
+    color:#3B464B;
+    border-bottom-left-radius:20%;
+    border-top-right-radius: 20%;
+    position: relative;
+    padding-bottom: 20px;
+}
+.projectInfoSection h1{
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+.stackList{
+    list-style: none;;
+}
+.projectImage{
+    max-height:400px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.carousel-item{
+    /* padding:50px; */
+text-align: center;
+
+}
+.carousel-indicators button {
+    background-color:  #EE2556ff; /* Change the color to your preference */
+    width: 12px;
+    height: 12px;
+   
+    border-radius: 20%;
+   
+    border: none;
+  }
+  .carousel-indicators{
+    position: absolute;
+  bottom: -50px; /* Push the indicators below the image */
+  background-color: #b7cec1;
+  border-radius: 15px;
+  }
+
+  .carousel-indicators .active {
+    background-color:  #EE2556ff; /* Color for the active indicator */
+  }
+  .codebaseLink{
+    color:#EE2556ff;
+  }
+  .link-underline:hover {
+    text-decoration-color: #EE2556ff !important;
+  }

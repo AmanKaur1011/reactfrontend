@@ -1,0 +1,21 @@
+.skills-scroll-wrapper{
+    overflow: hidden;
+}
+.skills-list{
+    list-style: none;
+    /* padding-block: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: max-content;
+    flex-wrap: nowrap;
+   animation: scroll 50s linear infinite;
+}
+.skillName{
+    color:#3B464B;
+  }
+@keyframes scroll {
+    to {
+      transform: translate(calc(-50% ));
+    }
+  }

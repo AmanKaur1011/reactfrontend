@@ -1,0 +1,10 @@
+.aboutmeSection h1{
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+.aboutmeSection
+{
+    background: linear-gradient(135deg, #b7cec1, #d1ded7, #eef3ee);
+    color:#3B464B;
+    border-bottom-left-radius:20%;
+    border-top-right-radius: 20%;
+}

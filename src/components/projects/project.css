@@ -1,0 +1,53 @@
+.projects{
+    list-style: none;
+
+}
+.projects a{
+    text-decoration: none;
+}
+.project-item{
+    border-radius: 28px;
+    padding: 30px 20px;
+    overflow:hidden;
+    height:300px;
+    color:#3B464B;
+    border:none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* box-shadow: 7.6px 6px 6px hsl(0deg 0% 0% / 0.26); */
+    /* Smooth transition for color changes */
+
+}
+.project-title,.project-dates{
+z-index:10;
+}
+/* Background Circle Styling */
+.project-item_bg {
+    height: 128px;
+    width: 128px;
+    /* background-color: #f9b234; */
+    background-color: #EE2556ff;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    border-radius: 50%;
+    transition: all 0.8s ease;
+    z-index: 1;
+  }
+  /* Hover Effects */
+
+
+  .project-item:hover {
+    /* background-color: #EE2556ff; */
+    color:#FFF;
+  }
+  .project-item:hover .project-item_bg {
+   transform:scale(12);
+  }
+  
+  /* .project-title:hover .ag-courses-item_bg {
+    transform: scale(1.5);
+  } */
+  .ProjectSection h2{
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  }

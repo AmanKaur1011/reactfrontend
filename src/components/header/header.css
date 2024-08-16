@@ -1,0 +1,84 @@
+.navItems {
+  list-style: none;
+}
+.navItems a {
+  text-decoration: none;
+  color: black;
+}
+#header {
+  margin-top: 20px;
+}
+.contactbtn {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #ee2556; /* Button background color */
+  color: #fff; /* Text color */
+  font-size: 16px;
+  /* font-weight:400; */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  border-radius: 50px; /* Fully rounded corners */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover Effects */
+.contactbtn:hover {
+  background-color: #ff4c72; /* Slightly lighter background on hover */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+/* Optional: Active State */
+.contactbtn:active {
+  background-color: #d61b45; /* Darker background on active */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow on active */
+  transform: translateY(0); /* No lift effect on active */
+}
+.menu-toggle {
+  display: none;
+  border: none;
+  background-color: white;
+}
+.navItem:hover {
+  color: #ee2556;
+}
+.menuIcon {
+  background-color: #ee2556;
+  padding: 7px 10px 7px 10px;
+  border-radius: 7px;
+  color: #fff;
+}
+/*Menu style changes for smaller screens*/
+@media (max-width: 768px) {
+  .navItems {
+    display: none; /* Hide the menu by default on smaller screens */
+
+    /* gap: 10px; */
+  }
+  .navbar {
+    order: 1;
+  }
+  #main-navigation.show-menu .navItems {
+    display: block;
+    position: absolute;
+
+    right: 30%;
+    top: 100%;
+    z-index: 16;
+    background: linear-gradient(45deg, #ee2556, #f9c4c4);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .navItems a {
+    color: #fff;
+  }
+
+  #main-navigation.show-menu .navItem {
+    display: inline;
+    align-self: flex-start;
+  }
+  .menu-toggle {
+    display: block; /* Show the menu toggle on smaller screens */
+  }
+}

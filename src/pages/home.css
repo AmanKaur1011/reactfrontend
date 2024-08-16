@@ -1,0 +1,99 @@
+
+
+#heroBanner{
+    /* background-color: rgb(209, 222, 215); */
+    /* background:linear-gradient(#a3c1ba,#A8B6AFff,#d1ded7); */
+    background: linear-gradient(135deg, #b7cec1, #d1ded7, #eef3ee);
+
+    color:#3B464B;
+}
+#heroBanner h1{
+    	
+text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+	
+/* text-shadow: 6px 6px 0px rgba(0,0,0,0.2); */
+}
+.myName{
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+/* #heroBanner p{
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+} */
+/* Container for the profile picture */
+.profile-pic {
+    width: 250px; /* Adjust the width as needed */
+    height: 250px; /* Height should be the same as width for a perfect circle */
+    border-radius: 50%; /* Makes the container a circle */
+    overflow: hidden; /* Ensures that the image does not overflow the circle */
+    display: flex; /* Center the image*/
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(209, 222, 215)  ; /* Optional: background color */
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+  }
+  
+  /* Profile picture styles */
+  .profile-pic img {
+    width: 100%; /* Make sure the image covers the container */
+    height: 100%; /* Make sure the image covers the container */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 50%; /* Optional: Adds rounded corners to the image itself */
+
+  }
+  .resumeButton{
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #EE2556; /* Button background color */
+    color: #FFF; /* Text color */
+    font-size: 16px;
+    /* font-weight:400; */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 50px; /* Fully rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Hover Effects */
+  .resumeButton:hover {
+    background-color: #FF4C72; /* Slightly lighter background on hover */
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+  }
+  
+  /* Optional: Active State */
+  .resumeButton:active {
+    background-color: #D61B45; /* Darker background on active */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow on active */
+    transform: translateY(0); /* No lift effect on active */
+  }
+  .roundedness{
+    border-bottom-left-radius:20%;
+    border-top-right-radius: 20%;
+    position: relative;
+    padding-bottom: 20px;
+   
+    
+  }
+  /* .roundedness::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    bottom: -410px;
+    height: 500px;
+    width: 100%;
+    left:0;
+    z-index: 15;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    /* box-shadow: 0 -50px 0 0 #F66969; */
+  
+  .bottomPart{
+    padding-top:50px;
+    padding-bottom:50px;
+    background: linear-gradient(135deg, #b7cec1, #d1ded7, #eef3ee);
+    color:#3B464B;
+    border-bottom-left-radius:15%;
+    border-top-right-radius: 15%;
+  }
