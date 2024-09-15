@@ -28,6 +28,10 @@ export default function ProjectInfo() {
 
      
       <div className=" fs-5 pe-3 mt-5">
+        
+      {project.projectUrl && (
+        <p>Live Link: <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="fs-5 projectLink link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">{project.projectUrl}</a></p>
+    )}
         <p>{project.projectDescription}</p>
         <p className="fs-5"><strong> Features: </strong>
         {

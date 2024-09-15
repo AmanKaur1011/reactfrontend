@@ -44,6 +44,9 @@ text-align: center;
   .codebaseLink{
     color:#EE2556ff;
   }
+  .projectLink{
+    color:#EE2556ff;
+  }
   .link-underline:hover {
     text-decoration-color: #EE2556ff !important;
   }
