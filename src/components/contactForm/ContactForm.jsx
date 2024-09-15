@@ -34,11 +34,11 @@ export default function ContactForm() {
                                         <i className="fa-brands fa-linkedin"></i>
                                     </a>
                                 </div>
-                                <div className="col-md-auto col-auto ">
+                                {/* <div className="col-md-auto col-auto ">
                                     <a className="contactIcon" href="#">
                                         <i className="fa-brands fa-instagram"></i>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

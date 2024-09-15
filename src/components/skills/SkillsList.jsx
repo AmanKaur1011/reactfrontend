@@ -46,7 +46,7 @@ export default function SkillsList() {
             <li key={`${skill._id}-duplicate`} className="skill-item  ps-3 pe-3">
               <div className="d-flex justify-content-center">
               <img
-                src={`https://portfolio-backend-gaek.onrender.com/${skill.ImagePath}`}
+                src={`https://portfolio-backend-gaek.onrender.com/public/${skill.ImagePath}`}
                 height="70"
                 width="70"
                 alt="SkillImage"
