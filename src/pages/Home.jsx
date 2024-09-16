@@ -43,8 +43,12 @@ export default function Home() {
       href="/resumes/resume.pdf" download="resume.pdf" className="resumeButton fw-medium" >
       Download  My Resume
     </a> */}
-    <a
+    {/* <a
       href="https://drive.google.com/file/d/1g4A-B2127XrHUpHXVKfGg_W4IyGXK6rV/view?usp=sharing"  className="resumeButton fw-medium" >
+      My Resume
+    </a> */}
+    <a
+      href="https://drive.google.com/file/d/1g0a4nS4NMJ_ccDI7TmbhgQc02xAEimTS/view?usp=sharing"  className="resumeButton fw-medium" >
       My Resume
     </a>
     </div>

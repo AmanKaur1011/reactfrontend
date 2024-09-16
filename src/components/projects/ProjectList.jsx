@@ -29,6 +29,7 @@ export default function ProjectList() {
             projectName={project.projectName} 
             startDate= {project.startDate}
             endDate= {project.endDate}
+            projectUrl= {project.projectUrl}
              
              />
              
